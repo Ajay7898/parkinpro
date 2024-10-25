@@ -15,12 +15,6 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    @if (session('success'))
-                        <div class="alert alert-success">
-                            {{ session('success') }}
-                        </div>
-                    @endif
                     
                     @if (!empty($books) && count($books) > 0) 
                         <form method="GET" action="{{ route('home.user') }}"> 

@@ -31,16 +31,6 @@
                                             <a href="{{ route('books.edit', $book) }}" class="btn"><span><i class ="fa fa-edit"></i></span></a>
                                             <a href="{{ route('books.destroy', $book) }}" class="btn"><span><i class="fa fa-trash"></i></span></a>
                                         </td>
-                                    <!-- <td>
-                                        <form action="{{ route('books.borrow', $book) }}" method="POST">
-                                            @csrf
-                                            <button type="submit">Borrow</button>
-                                        </form>
-                                        <form action="{{ route('books.return', $book) }}" method="POST">
-                                            @csrf
-                                            <button type="submit">Return</button>
-                                        </form>
-                                    </td> -->
                                     </tr>
                                 @endforeach
                             </tbody>

@@ -33,3 +33,7 @@ npm run dev
 
 php artisan serve
 
+<!-- Admin Login credential  -->
+email - admin@gmail.com
+password - 12345678
+
