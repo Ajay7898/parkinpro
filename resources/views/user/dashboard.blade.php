@@ -40,8 +40,8 @@
                                         <td><a href="{{ route('books.byAuthor', $book->author->id) }}">{{ $book->author->name }}</a></td>
                                         <td><a href="{{ route('books.byCategory', $book->category->id) }}">{{ $book->category->name }}</a></td>
                                         <td style="display:flex;">
-                                            <a href="{{ route('books.return', $book) }}" class="btn">Return</a>
                                             <a href="{{ route('books.borrow', $book) }}" class="btn">Borrow</a>
+                                            <a href="{{ route('books.return', $book) }}" class="btn">Return</a>
                                         </td>
                                     </tr>
                                 @endforeach
