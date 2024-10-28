@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    <a style="float:right;" href="{{ route('author.create') }}" class="btn btn-primary mt3">Add Author</a>
+                    <a style="float:right;" href="{{ route('category.create') }}" class="btn btn-primary mt3">Add Category</a>
 
                     @if (!empty($categories) && count($categories) > 0)
                         <table class="table">
